@@ -110,7 +110,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar um pull request
 
 ### Autores
 
-- [Seu Nome](https://github.com/seu_usuario)
+- [Allysson Martins de Carvalho](https://github.com/martcbit)
 
 ### Licença
 
