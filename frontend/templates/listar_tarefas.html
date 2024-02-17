@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Tarefas</title>
+</head>
+<body>
+    <h1>Listar Tarefas</h1>
+    <ul>
+    {% for tarefa in tarefas %}
+       <li>
+            <strong>ID:</strong> {{ tarefa.id }}<br>
+            <strong>Título:</strong> {{ tarefa.titulo }}<br>
+            <strong>Descrição:</strong> {{ tarefa.descricao }}<br>
+            <strong>Data de Início:</strong> {{ tarefa.data_inicio }}<br>
+            <strong>Data de Conclusão Prevista:</strong> {{ tarefa.data_conclusao_prevista }}<br>
+            <strong>Status:</strong> {{ tarefa.status }}
+        </li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
